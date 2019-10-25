@@ -3,8 +3,6 @@ TICKET_PRICE = 10
 
 tickets_remaining = 100  
 
-#TODO: Fix for 0 tickets to buy ERROR
-
 def calculate_price(tickets_total):
     return (tickets_total * TICKET_PRICE) + SERVICE_CHARGE
 
